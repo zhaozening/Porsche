@@ -1,0 +1,217 @@
+.tittle_po{
+    width: 1349px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background: white;
+    z-index: 99;
+
+}
+.tittle_po_f{
+    position: fixed;
+    top:0;
+    left:0;
+}
+.tittle_po .tittle1 a{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+}
+.tittle1{
+    width: 40px;
+    position: relative;
+    float: left;
+}
+.tittle1_a{
+    width: 340px;
+    height: 40px;
+    background: #212121;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+.tittle1_a a{
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    padding-left: 21px;
+    display: inline-block;
+    position: relative;
+}
+.impo{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+.tittle2{
+    width: 40px;
+    height: 50px;
+    float: left;
+}
+.tittle2>.tittle2_hover{
+    background: url("../images/top__.png") no-repeat center center;
+}
+/*.tittle2_hover>a{*/
+/*color: #990000;*/
+/*}*/
+/*.tittle2:hover>a{*/
+    /*color: #990000;*/
+/*}*/
+.tittle2>a{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background: url("../images/top_.png") no-repeat center center;
+}
+/*.tittle__2{*/
+    /*width: 300px;*/
+    /*height: 120px;*/
+    /*position: absolute;*/
+    /*bottom: -120px;*/
+    /*left: 0;*/
+    /*background: #f2f2f2;*/
+    /*display: none;*/
+/*}*/
+/*.tittle__2 #a_hehe{*/
+    /*width: 225px;*/
+    /*height: 40px;*/
+    /*display: block;*/
+    /*background: url("../images/faxian.png") no-repeat 36px 15px #990000;*/
+    /*font-size: 12px;*/
+    /*color: white;*/
+    /*padding-left: 75px;*/
+    /*line-height: 40px;*/
+/*}*/
+
+/*.tittle__2 a{*/
+    /*width: 225px;*/
+    /*height: 40px;*/
+    /*display: block;*/
+    /*background: url("../images/a_aa.png") no-repeat 35px 18px #f2f2f2;*/
+    /*font-size: 12px;*/
+    /*color: black;*/
+    /*padding-left: 75px;*/
+    /*line-height: 40px;*/
+/*}*/
+/*.tittle__2 .a_2{*/
+    /*width: 225px;*/
+    /*height: 40px;*/
+    /*display: block;*/
+    /*background: url("../images/a_a2.png") no-repeat 36px 15px #990000;*/
+    /*font-size: 12px;*/
+    /*color: white;*/
+    /*padding-left: 75px;*/
+    /*line-height: 40px;*/
+/*}*/
+/*.tittle__2 p{*/
+    /*width: 203px;*/
+    /*margin: 0 auto;*/
+    /*height: 1px;*/
+    /*background: #cccccc;*/
+/*}*/
+.banner_three{
+    width: 1349px;
+    height: 41px;
+    margin: 0 auto;
+    position: relative;
+    background: #f2f2f2;
+}
+.banner_three p{
+    line-height: 41px;
+    font-size: 21px;
+    padding-left: 97px;
+}
+.banner{
+    margin-top: 3px;
+}
+.porsche_fuwu{
+    width: 1172px;
+    margin: 68px auto 0 auto;
+}
+.fuwu_a{
+    display: block;
+    width: 800px;
+    height: 87px;
+    margin-bottom: 32px;
+}
+.fuwu_a>img{
+    width: 151px;
+    height: 87px;
+    float: left;
+}
+.fuwu_a>span{
+    width: 600px;
+    display: inline-block;
+    line-height: 1.45;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    margin-left: 33px;
+    font-size: 14px;
+    margin-top: -3px;
+    color: black;
+    float: left;
+}
+.fuwu_a>span span{
+    display: block;
+    font-weight: bold;
+    background: url("../images/car_bg.png") no-repeat left center;
+    margin-left: -18px;
+    padding-left: 18px;
+    margin-bottom: 8px;
+}
+.fuwu_a:hover span{
+    color: #cc0000;
+}
+
+
+.banner_bottom{
+    width: 1158px;
+    height: 121px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 90px auto 0 auto;
+    position: relative;
+
+}
+.banner_bottom p{
+    width: 104px;
+    height: 37px;
+    line-height: 37px;
+    margin-left: -52px;
+    position: absolute;
+    top: -18.5px;
+    left: 50%;
+    background: white;
+    text-align: center;
+    font-family: "PFranklinGothicCnd",Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    font-size: 1.625em;
+
+}
+.banner_bottom ul{
+    width: 1159px;
+    overflow: hidden;
+    margin: 38px auto 0 auto;
+}
+.banner_bottom ul li{
+    float: left;
+
+}
+.banner_bottom ul li a{
+    font-size: .875em;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    color: black;
+    display: inline-block;
+    padding: 1px 12px;
+    border-left:1px solid #cccccc;
+}
+.banner_bottom ul li:hover a{
+    color: #cc0000;
+}
+

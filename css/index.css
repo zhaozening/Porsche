@@ -1,0 +1,248 @@
+/*横幅  banner*/
+.banner{
+    width: 1349px;
+    height: 518px;
+    position: relative;
+    margin: 3px auto 0 auto;
+    z-index: 5;
+    overflow: hidden;
+    /*display: none;*/
+}
+.banner_list{
+    width: 1349px;
+    height: 518px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+.banner_list ul{
+    width: 5396px;
+    overflow: hidden;
+    z-index: 0;
+}
+.banner_list li{
+    float: left;
+    z-index: 5;
+    position: relative;
+    width: 1349px;
+    height: 518px;
+}
+.banner_list li img{
+    width: 1349px;
+    height: 518px;
+    z-index: 5;
+}
+#banner_one{
+    left: 50px;
+    bottom: 50px;
+}
+#banner_two{
+    right: 0px;
+    bottom: 50px;
+    width: 300px;
+}
+#banner_three{
+    left: 50px;
+    bottom: 50px;
+}
+#banner_four{
+    left: 50px;
+    top: 50px;
+    color: black;
+}
+.banner_a{
+    font-family: 'pag-iconfont';
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    line-height:50px;
+    width:1200px;
+}
+.banner_a p{
+    font-size: 40px;
+}
+.banner_a span{
+    height: 60px;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    margin-right: 20px;
+    color: darkred;
+    font-weight: bold;
+}
+.banner_a:hover{
+    color: darkred;
+}
+.banner_left{
+    width: 40px;
+    height: 60px;
+    background: #3e4146;
+    position: absolute;
+    left:0;
+    top:50%;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    line-height: 55px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+}
+.banner_right{
+    width: 40px;
+    height: 60px;
+    background: #3e4146;
+    position: absolute;
+    right:0;
+    top:50%;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    line-height: 55px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+}
+.banner_hover{
+    background: darkred;
+}
+.banner_num{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 50;
+}
+.banner_num li{
+    float: left;
+    cursor: pointer;
+    text-indent: 999px;
+    width: 8px;
+    height: 8px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: #999;
+
+
+}
+.banner_num .navOn{background: white}
+/*横幅  banner*/
+/*中间  center*/
+.center{
+    width: 1156px;
+    height: 87px;
+    line-height: 87px;
+    margin: 0 auto;
+    border-bottom: #cccccc 1px solid;
+}
+.center_inner{
+    width: 619px;
+    height: 40px;
+    margin: 22px auto 0 auto;
+
+}
+.center_inner li{
+    position: relative;
+    float: left;
+    height: 40px;
+    margin-left: 43px;
+}
+.center_inner li span{
+    height: 40px;
+    display: block;
+    cursor: pointer;
+}
+.center_inner li a{
+    height: 40px;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+/*中间   center*/
+/*中间  下面*/
+.car{
+    width: 1160px;
+    margin: 0 auto;
+}
+.car_list{
+    margin: 36px auto 0 auto;
+    width: 920px;
+    position: relative;
+}
+.car_list li{
+    width: 184px;
+    height: 122px;
+    position: relative;
+    text-align: center;
+    float: left;
+
+}
+.li_inner{
+
+    position: relative;
+    width: 182px;
+    height: 120px;
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+
+}
+.car_list_hover{
+     border: #cccccc solid 1px;
+     border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+.car_list li a{
+    display: block;
+    font-size: 12px;
+    color: black;
+}
+.car_list li img{
+    width: 155px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+.car_a{width: 155px;text-align: center;margin: 0 auto;}
+.car_div{width: 182px;position: absolute;top: -110px;left: -1px;padding-top: 20px;text-align: left;border: 1px solid white;background: white;display: none;}
+.car_div_hover{border: #cccccc solid 1px;border-bottom: 0;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.car_div a{margin-bottom: 15px;padding-left: 30px;background: url("../images/car_bg.png") no-repeat 17px center;}
+/*中间   下面*/
+/*内容  content*/
+.content{width: 1165px;margin: 100px auto 0 auto;}
+.content_only{width: 289px;float: left;margin-left: 2px;}
+.content_only img{width: 289px;height: 217px;}
+.content_only a{width: 289px;color: black;font-size: 12px;display: block;position: relative;}
+.content_only a p{background: url("../images/car_bg.png")no-repeat 40px 16px;padding-left: 55px;position: absolute;left: 0;bottom: -25px;padding-top: 12px;width: 234px;}
+.content_only a .p_hover{color: #cc0000;border-top: 5px #cc0000 solid;}
+/*内容  content*/
+/*保时捷中国*/
+.porsche_china{height: 700px;width: 1155px;margin: 120px auto 0 auto;position: relative;border-bottom: 1px solid #cccccc;}
+.china{border-bottom: 1px solid #cccccc;position: relative;}
+.china p{width: 286px;position: absolute;background: white;top: -17px;left: 50%;margin-left: -143px;font-size: 25px;text-align: center;}
+.porsche_web1{width: 382px;height: 418px;float: left; margin-top: 71px;margin-left: 4px;}
+.web_top {width: 382px;height: 271px;overflow: hidden;}
+.web_top img{width: 382px;height: 271px;}
+.web_top ul{width: 764px;}
+.web_top li{width: 382px;height: 271px;float: left;}
+.web_left{width: 189px;height: 145px;margin: 2px 4px 0 0;overflow: hidden;float: left;}
+.web_left img{width: 189px;height: 145px;}
+.web_left ul{width: 189px;height: 290px;}
+.web_left li{width: 189px;height: 145px;}
+.web_right{width: 189px;height: 145px;margin: 2px 0 0 0;overflow: hidden;float: left;}
+.web_right img{width: 189px;height: 145px;}
+.web_right ul{width: 378px;height: 145px;}
+.web_right li{width: 189px; height: 145px;float: left;}
+.web_txt{margin-top: 27px;color: #999999;font-size: 15px;}
+.web_txt span{font-weight: bold;color: #000000;}
+.web_more{display: block;width: 79px;height: 38px; border-radius: 5px;background:url("../images/more.png") no-repeat 20px 13px #3e4146;color: white;font-size: 12px;line-height: 38px;padding-left: 40px;position: absolute;right: 80px;bottom: 70px;}
+.web_more_{background: url("../images/more_.png")no-repeat 20px 13px #cc0000;}
+/*保时捷中国*/
+
+

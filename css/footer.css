@@ -1,0 +1,31 @@
+/*末*/
+.buy{width: 1160px;height: 490px;margin: 40px auto 0 auto;position: relative;}
+.buy ul{float: left;margin-left: 200px;}
+.buy li{color: #999999;}
+.buy .first{margin-bottom: 23px;}
+.buy li a{display: block;color: black;font-size: 13px;margin-bottom: 15px;}
+.buy li a:hover{color: darkred;}
+.shejiao{width: 281px;height: 38px;float: right;margin-right: 20px;margin-top: 30px;position: relative;}
+.shejiao a{display: block;width: 224px;height: 38px;line-height: 38px;background:url("../images/shejiao.png") no-repeat 15px 8px #3e4146;color: white;font-size: 13px;border-radius: 5px;padding-left: 57px;}
+.shejiao .a_shejiao{background:url("../images/shejiao_.png") no-repeat 15px 8px #cc0000;}
+.shejiao .fenxiang{width: 279px;height: 109px;border: 1px solid #cccccc;border-top: 0;padding-top: 16px;position: absolute;bottom: -126px;left: 0;display: none;background: white;z-index: 999;}
+.shejiao .fenxiang img{margin: 0; cursor: pointer;}
+.guanzhu {width: 281px;height: 110px;float: right;margin: 42px 20px 0 0;}
+.guanzhu p{font-size: 17px;color: #999999;margin-bottom: 3px;}
+.guanzhu a{width: 40px;height: 40px;position: relative;display: inline-block;}
+.guanzhu a span{display: inline-block;width: 40px;height: 40px;position: absolute;top:0;left: 0;display: none;}
+/*末*/
+/*页脚  footer*/
+.footer{height: 350px;background: #1b1d1f;}
+.footer_inner{width: 1160px;margin: 0 auto;}
+.footer_inner_top{height: 93px;border-bottom: 1px solid #3c3c3c;padding-top: 24px;}
+.footer_inner_top p{color: white;font-size: 13px;text-align: center;}
+.btn1{width: 281px;background:url("../images/btn_bg.png") no-repeat right center #3e4146;border-radius: 5px;cursor: pointer;float: left;margin-left: 291px;margin-top: 20px;border: 0;position: relative;}
+.btn1 p{font-size: 12px;color: white;padding-left: 12px;text-align: left;line-height: 37px;height: 37px;}
+.btn_1{background: white;width: 281px;font-size: 14px;position: absolute;top: 37px;left: 0;display: none;}
+.btn_1 li{margin-top: 13px;font-size: 12px;color: black;padding-left: 12px;}
+.btn_1 a{font-size: 12px;color: black;padding-left: 12px;}
+.footer_inner_bottom{font-size: 12px;color: white;margin-top: 30px;}
+.footer_inner_bottom a{font-size: 12px;color: white;text-decoration: underline;line-height: 35px;}
+.footer_inner_bottom a:hover{color: darkred;  text-decoration: none;}
+/*页脚  footer*/

@@ -1,0 +1,264 @@
+
+.banner{
+    width: 1349px;
+    /*height: 1000px;*/
+    /*background: pink;*/
+    margin: 3px auto 0 auto;
+}
+.banner_img_ a{
+    display: block;
+    width: 1349px;
+    height: 518px;
+    position: relative;
+    margin: 0 auto;
+}
+.banner_img_ img{
+    display: block;
+    width: 1349px;
+    height: 518px;
+    position: relative;
+    margin: 0 auto;
+}
+/*.banner_img_ a .img_a_{*/
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*left: 50%;*/
+    /*margin: -32px 0 0 -32px;*/
+    /*width: 40px;*/
+    /*height: 64px;*/
+    /*background: rgba(50,33,34,0.95);*/
+    /*border-radius: 50%;*/
+    /*line-height: 64px;*/
+    /*color: white;*/
+    /*padding-left: 24px;*/
+    /*font-size: 23px;*/
+/*}*/
+.tittle_po{
+    width: 1349px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background: white;
+    z-index: 99;
+
+}
+.tittle_po_f{
+    position: fixed;
+    top:0;
+    left:0;
+}
+.tittle_po .tittle1 a{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+}
+.tittle1{
+    width: 40px;
+    position: relative;
+    float: left;
+}
+.tittle1_a{
+    width: 340px;
+    height: 40px;
+    background: #212121;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+.tittle1_a a{
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    padding-left: 21px;
+    display: inline-block;
+    position: relative;
+}
+.impo{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+.tittle2{
+    width: 300px;
+    float: left;
+    background: url("../images/banner_.png") no-repeat 33px 18px #990000;
+    cursor: pointer;
+    position: relative;
+
+}
+.tittle2_hover{
+    background: url("../images/banner_2.png") no-repeat 33px 18px #f2f2f2;
+}
+/*.tittle2_hover>a{*/
+/*color: #990000;*/
+/*}*/
+.tittle2:hover>a{
+    color: #990000;
+}
+.tittle2>a{
+    display: inline-block;
+    height: 50px;
+    font-size: 12px;
+    color: white;
+    padding-left: 75px;
+    line-height: 50px;
+}
+.tittle__2{
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    background: #f2f2f2;
+    display: none;
+}
+.tittle__2 #a_hehe{
+    width: 225px;
+    height: 40px;
+    display: block;
+    background: url("../images/faxian.png") no-repeat 36px 15px #990000;
+    font-size: 12px;
+    color: white;
+    padding-left: 75px;
+    line-height: 40px;
+}
+
+.tittle__2 a{
+    width: 225px;
+    height: 40px;
+    display: block;
+    background: url("../images/a_aa.png") no-repeat 35px 18px #f2f2f2;
+    font-size: 12px;
+    color: black;
+    padding-left: 75px;
+    line-height: 40px;
+}
+.tittle__2 .a_2{
+    width: 225px;
+    height: 40px;
+    display: block;
+    background: url("../images/a_a2.png") no-repeat 36px 15px #990000;
+    font-size: 12px;
+    color: white;
+    padding-left: 75px;
+    line-height: 40px;
+}
+.tittle__2 p{
+    width: 203px;
+    margin: 0 auto;
+    height: 1px;
+    background: #cccccc;
+}
+.banner_three{
+    width: 1349px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    background: #f2f2f2;
+}
+.banner_three p{
+    line-height: 50px;
+    font-size: 21px;
+    padding-left: 97px;
+}
+.banner_car{
+    margin-top: 90px;
+}
+.banner_car .banner_porsche{
+    margin: 129px auto 0 auto;
+    border-top: 1px solid #cccccc;
+    position: relative;
+    width: 1158px;
+    height: 398px;
+}
+.banner_porsche_tittle{
+    background-color: #fff;
+    z-index: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.625em;
+    width: 364px;
+    height: 30px;
+    position: absolute;
+    top:-15px;
+    left: 50%;
+    margin-left: -208px;
+    font-family: "PFranklinGothicCnd",Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    text-align: center;
+}
+.banner_car .banner_porsche img{
+    margin-top: 39px;
+    float: left;
+}
+.banner_car .banner_porsche .p_porsche{
+    margin-top: 63px;
+    float: left;
+    margin-left: 108px;
+    font-size: .875em;
+    line-height: 1.75em;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+}
+.banner_car .banner_porsche>a{
+    width: 76px;
+    height: 38px;
+    display: inline-block;
+    background: url("../images/more.png") no-repeat 20px 13px #3e4146;
+    padding-left: 43px;
+    line-height: 38px;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: inherit;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 109px;
+}
+.banner_car .banner_porsche .hover_aa{
+    background: url("../images/more_.png") no-repeat 20px 13px #cc0000;
+}
+
+.banner_car .banner_porsche .border_a{
+    height: 16px;
+    display: block;
+    float: left;
+    background: none;
+    margin-left: 0;
+    line-height: 16px;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    color: #000;
+    border-radius: 0;
+    text-decoration: inherit;
+    font-size: 14px;
+    margin-top: 37px;
+    border-left: 1px solid #cccccc;
+    text-align: center;
+    padding: 0 10px;
+
+}
+.banner_car .banner_porsche .border_a:hover{
+    color: #cc0000;
+}
+.banner_porsche img{
+    width: 476px;
+    height: 357px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

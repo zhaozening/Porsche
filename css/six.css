@@ -1,0 +1,160 @@
+.banner{
+    width: 1348px;
+    margin: 3px auto 0 auto;
+}
+.banner_img_2{
+    width: 1348px;
+    height: 519px;
+}
+.banner_img_2 img{
+    width: 1348px;
+    height: 519px;
+}
+.banner_three{
+    width: 1349px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    background: #f2f2f2;
+}
+.banner_three p{
+    line-height: 50px;
+    font-size: 21px;
+    padding-left: 97px;
+}
+.tittle2>a{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background: url("../images/top_.png") no-repeat center center;
+}
+.tittle_po{
+    width: 1349px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background: white;
+    z-index: 99;
+
+}
+.tittle_po_f{
+    position: fixed;
+    top:0;
+    left:0;
+}
+.tittle_po .tittle1 a{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+}
+.tittle1{
+    width: 40px;
+    position: relative;
+    float: left;
+}
+.tittle1_a{
+    width: 340px;
+    height: 40px;
+    background: #212121;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+.tittle1_a a{
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    padding-left: 21px;
+    display: inline-block;
+    position: relative;
+}
+.impo{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+.tittle2{
+    width: 40px;
+    height: 50px;
+    float: left;
+}
+.tittle2>.tittle2_hover{
+    background: url("../images/top__.png") no-repeat center center;
+}
+.banner_bottom_0{
+    width: 1156px;
+    margin: 68px auto 0 auto;
+}
+.banner_bottom_0 a{
+    display: block;
+    color: #000;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    line-height: 1.45;
+    font-size: 14px;
+    margin-top: 35px;
+}
+.banner_bottom_0 a span{
+    display: block;
+    background: url("../images/car_bg.png") no-repeat left center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.45;
+    padding-left: 18px;
+    margin-bottom: 10px;
+
+}
+.banner_bottom_0 a p{
+    padding-left: 18px;
+}
+.banner_bottom_0 a:hover{
+    color: #cc0000;
+}
+
+.banner_bottom{
+    width: 1158px;
+    height: 121px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 90px auto 0 auto;
+    position: relative;
+
+}
+.banner_bottom p{
+    width: 104px;
+    height: 37px;
+    line-height: 37px;
+    margin-left: -52px;
+    position: absolute;
+    top: -18.5px;
+    left: 50%;
+    background: white;
+    text-align: center;
+    font-family: "PFranklinGothicCnd",Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    font-size: 1.625em;
+
+}
+.banner_bottom ul{
+    width: 1070px;
+    overflow: hidden;
+    margin: 38px auto 0 auto;
+}
+.banner_bottom ul li{
+    float: left;
+
+}
+.banner_bottom ul li a{
+    font-size: .875em;
+    font-family: Arial,黑体,SimHei,宋体,SimSun,sans-serif;
+    color: black;
+    display: inline-block;
+    padding: 1px 12px;
+    border-left:1px solid #cccccc;
+}
+.banner_bottom ul li:hover a{
+    color: #cc0000;
+}
